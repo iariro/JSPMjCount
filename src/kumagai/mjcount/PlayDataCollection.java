@@ -29,7 +29,7 @@ public class PlayDataCollection
 	public String starttime;
 	public String comment;
 
-	public ArrayList<PlayData> gameResults;
+	public ArrayList<PlayData> gameResults = new ArrayList<PlayData>();
 
 	public void setStarttime(String startdatetime)
 	{
