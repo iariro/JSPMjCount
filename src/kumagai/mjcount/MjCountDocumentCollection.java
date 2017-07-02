@@ -71,6 +71,11 @@ public class MjCountDocumentCollection
 
 		for (int i=0 ; i<files.length ; i++)
 		{
+			if (files[i] == null)
+			{
+				continue;
+			}
+
 			for (int j=0 ; j<files[i].length && (all || count < num) ; j++)
 			{
 				int index = files[i].length - j - 1;
